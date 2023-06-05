@@ -3,7 +3,7 @@ nav {
     width: 100%;
     align-items: center;
     padding: 0.625rem 9.375rem;
-    height: 10dvh;
+    height: 10vh;
     font-weight: 700;
     font-family: 'Karla', sans-serif;
     background-color: hsl(0, 0%, 98%);
@@ -75,7 +75,7 @@ nav img {
         flex-direction: column;
         gap: 1.875rem;
         padding: 3.125rem 1.25rem;
-        height: 100dvh;
+        height: 100lvh;
         width: 100%;
         background: url('/images/bg-pattern-mobile-nav.svg'), hsl(270, 9%, 17%);
         background-size: contain;
