@@ -72,10 +72,10 @@ function App() {
         <div className='footer-section-header'>
           <img className='footer-logo' src='/images/logo.svg' alt='Logo'/>
           <div className='socials'>
-          <i class="fa-brands fa-facebook-square fa-xl" />
-            <i class="fa-brands fa-twitter fa-xl" />
-            <i class="fa-brands fa-pinterest fa-xl" />
-            <i class="fa-brands fa-instagram fa-xl" />
+          <i className="fa-brands fa-facebook-square fa-xl" />
+            <i className="fa-brands fa-twitter fa-xl" />
+            <i className="fa-brands fa-pinterest fa-xl" />
+            <i className="fa-brands fa-instagram fa-xl" />
           </div>
         </div>
         <div className='footer-section-divider'></div>
