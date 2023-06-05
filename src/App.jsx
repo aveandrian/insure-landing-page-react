@@ -4,9 +4,9 @@ function App() {
 
   return (
     <>
-      
+      <Navbar />
       <section className='header-section'>
-        <Navbar />
+        
         
         <div className='header-section-content-wrapper'>
           <div className='header-section-content'>
@@ -107,7 +107,7 @@ function App() {
             <p>Licenses</p>
           </div>
         </div>
-        <div class="attribution">
+        <div className="attribution">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
           Coded by <a href="https://github.com/aveandrian">aveandrian</a>.
         </div>

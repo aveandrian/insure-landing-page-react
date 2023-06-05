@@ -1,5 +1,6 @@
 nav {
     display: flex;
+    width: 100%;
     align-items: center;
     padding: 0.625rem 9.375rem;
     height: 10vh;
@@ -7,7 +8,8 @@ nav {
     font-family: 'Karla', sans-serif;
     background-color: white;
     z-index: 3;
-    
+    position: fixed;
+    top: 0;
 }
 
 nav img {
@@ -55,15 +57,11 @@ nav img {
 @media screen and (max-width: 950px) {
     nav {
         padding: 1.875rem;
-        position: absolute;
+        /* position: absolute; */
         z-index: 1;
         background-color: white;
         width: 100%;
         overflow: hidden;
-    }
-
-    nav.opened {
-        position: fixed;
     }
 
     .menu-btn {
