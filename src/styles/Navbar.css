@@ -6,7 +6,7 @@ nav {
     height: 10vh;
     font-weight: 700;
     font-family: 'Karla', sans-serif;
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     z-index: 3;
     position: fixed;
     top: 0;
@@ -57,8 +57,6 @@ nav img {
 @media screen and (max-width: 950px) {
     nav {
         padding: 1.875rem;
-        /* position: absolute; */
-        z-index: 1;
         background-color: white;
         width: 100%;
         overflow: hidden;
@@ -70,15 +68,14 @@ nav img {
 
     .nav-items {
         position: fixed;
-        bottom: 0;
+        top: 10vh;
         left: 0;
         transition: 0.3s;
         transform: translateX(100vw);
         flex-direction: column;
         gap: 1.875rem;
         padding: 3.125rem 1.25rem;
-        margin-top: 10vh;
-        height: 90vh;
+        height: 100%;
         width: 100%;
         background: url('/images/bg-pattern-mobile-nav.svg'), hsl(270, 9%, 17%);
         background-size: contain;
