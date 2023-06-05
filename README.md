@@ -19,4 +19,4 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/aveandrian/insure-landing-page-react/assets/13519212/8dfa05a3-77f7-466f-9e31-7aea638cdfd0)
